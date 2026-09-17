@@ -1,0 +1,21 @@
+# 数据（体积大，不入库；预处理后的特征库视需要再放开）
+data/CUB_200_2011/
+data/AVONET/
+data/user_images/
+data/*.tgz
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# 临时与运行产物
+work/
+*.log
+.DS_Store
+
+# IDE
+.idea/
+
+# 批量运行输出（体积较大/个人数据）
+outputs/batch_results/

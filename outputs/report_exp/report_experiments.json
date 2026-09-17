@@ -1,0 +1,238 @@
+{
+  "n_images": 11788,
+  "n_features": 126,
+  "n_classes": 200,
+  "B_top_features": [
+    {
+      "feature": "lbp_12",
+      "F": 0.5089757744961204,
+      "group": "LBP纹理"
+    },
+    {
+      "feature": "lbp_51",
+      "F": 0.45295605835800834,
+      "group": "LBP纹理"
+    },
+    {
+      "feature": "lbp_11",
+      "F": 0.42075722896678597,
+      "group": "LBP纹理"
+    },
+    {
+      "feature": "lbp_07",
+      "F": 0.41890209499348985,
+      "group": "LBP纹理"
+    },
+    {
+      "feature": "lbp_15",
+      "F": 0.41723468924171697,
+      "group": "LBP纹理"
+    },
+    {
+      "feature": "lbp_46",
+      "F": 0.40894006011147355,
+      "group": "LBP纹理"
+    },
+    {
+      "feature": "lbp_50",
+      "F": 0.4085146853994563,
+      "group": "LBP纹理"
+    },
+    {
+      "feature": "lbp_58",
+      "F": 0.35315080860283166,
+      "group": "LBP纹理"
+    },
+    {
+      "feature": "lbp_18",
+      "F": 0.3327025484966482,
+      "group": "LBP纹理"
+    },
+    {
+      "feature": "lbp_13",
+      "F": 0.3218126011013999,
+      "group": "LBP纹理"
+    }
+  ],
+  "B_group_summary": [
+    {
+      "group": "GLCM纹理",
+      "mean": 0.2323026615772313,
+      "max": 0.30531568496500555,
+      "count": 7
+    },
+    {
+      "group": "LBP纹理",
+      "mean": 0.19223098438391706,
+      "max": 0.5089757744961204,
+      "count": 59
+    },
+    {
+      "group": "灰度统计",
+      "mean": 0.1717649866244914,
+      "max": 0.23020442128065752,
+      "count": 2
+    },
+    {
+      "group": "形态比例",
+      "mean": 0.12422544380645795,
+      "max": 0.18272838817850562,
+      "count": 6
+    },
+    {
+      "group": "颜色",
+      "mean": 0.11511289828050954,
+      "max": 0.3144958997211632,
+      "count": 34
+    },
+    {
+      "group": "形貌",
+      "mean": 0.06736348147624749,
+      "max": 0.14800335061326556,
+      "count": 12
+    },
+    {
+      "group": "分形复杂度",
+      "mean": 0.059122327788979634,
+      "max": 0.07766306688507298,
+      "count": 2
+    },
+    {
+      "group": "对称性",
+      "mean": 0.04850331298790364,
+      "max": 0.08843721088916452,
+      "count": 4
+    }
+  ],
+  "A_summary": {
+    "iou": 0.9263135038208561,
+    "dice": 0.9595632020303606,
+    "area_coarse": 0.2238947484059971,
+    "area_refined": 0.21158116580979291,
+    "edge_coarse": 0.04685946137354639,
+    "edge_refined": 0.04716897480718668,
+    "fractal_coarse": 1.5912274349283997,
+    "fractal_refined": 1.5802104504181742,
+    "t_coarse": 0.008281683921813965,
+    "t_refined": 0.07930115818977355
+  },
+  "C_summary": {
+    "mean_F_raw": 8198674393920.654,
+    "mean_F_enhanced": 5546289658651.473,
+    "n_improved": 31,
+    "n_total": 126,
+    "key": [
+      {
+        "feature": "glcm_contrast",
+        "F_raw": 32881635061034.395,
+        "F_enhanced": 77594606133322.23,
+        "improve_ratio": 2.3598159273190733
+      },
+      {
+        "feature": "glcm_entropy",
+        "F_raw": 596142137386.9689,
+        "F_enhanced": 472093922064.68695,
+        "improve_ratio": 0.7919150357899302
+      },
+      {
+        "feature": "shape_edge_density",
+        "F_raw": 350543579.9943335,
+        "F_enhanced": 256841245.55700904,
+        "improve_ratio": 0.7326941932902061
+      },
+      {
+        "feature": "fractal_dimension",
+        "F_raw": 12263390882.822023,
+        "F_enhanced": 10117069823.858883,
+        "improve_ratio": 0.8249814362543393
+      },
+      {
+        "feature": "symm_vertical",
+        "F_raw": 26953843790.982433,
+        "F_enhanced": 19810063590.78492,
+        "improve_ratio": 0.7349624693385102
+      },
+      {
+        "feature": "morph_tail_body_ratio",
+        "F_raw": 14402711403.417925,
+        "F_enhanced": 12673934353.624645,
+        "improve_ratio": 0.8799686391422783
+      }
+    ]
+  },
+  "D_rho": {
+    "Mass": {
+      "fractal_dimension_mean": -0.10337688111824836,
+      "symm_vertical_mean": 0.39732645611213774,
+      "glcm_entropy_mean": -0.09663039414754769,
+      "glcm_contrast_mean": 0.0588808181917572,
+      "shape_area_ratio_mean": -0.04917547729116058,
+      "shape_edge_density_mean": -0.24104871684853543,
+      "morph_wing_body_ratio_mean": 0.1763694449857958,
+      "morph_tail_body_ratio_mean": -0.29563863432218496,
+      "morph_body_width_ratio_mean": -0.28276893227324074,
+      "morph_body_len_ratio_mean": 0.12884327562666087
+    },
+    "Range.Size": {
+      "fractal_dimension_mean": 0.020879120879120878,
+      "symm_vertical_mean": -0.07656055284921263,
+      "glcm_entropy_mean": -0.04670410590881872,
+      "glcm_contrast_mean": 0.07161468869863567,
+      "shape_area_ratio_mean": 0.057052226124391064,
+      "shape_edge_density_mean": -0.01972033857159041,
+      "morph_wing_body_ratio_mean": 0.10091440223988087,
+      "morph_tail_body_ratio_mean": -0.03203482820566767,
+      "morph_body_width_ratio_mean": -0.07632912006991535,
+      "morph_body_len_ratio_mean": 0.08662868795416657
+    },
+    "av_wing_tarsus": {
+      "fractal_dimension_mean": -0.04598214955373885,
+      "symm_vertical_mean": 0.27457286432160805,
+      "glcm_entropy_mean": -0.43439285982149556,
+      "glcm_contrast_mean": -0.33227180679516993,
+      "shape_area_ratio_mean": -0.0464276606915173,
+      "shape_edge_density_mean": -0.25228230705767646,
+      "morph_wing_body_ratio_mean": 0.0601515037875947,
+      "morph_tail_body_ratio_mean": -0.06064651616290408,
+      "morph_body_width_ratio_mean": -0.25568739218480463,
+      "morph_body_len_ratio_mean": 0.05503787594689868
+    },
+    "av_tail_wing": {
+      "fractal_dimension_mean": -0.011440786019650493,
+      "symm_vertical_mean": -0.4809255231380785,
+      "glcm_entropy_mean": 0.2364689117227931,
+      "glcm_contrast_mean": 0.17257631440786023,
+      "shape_area_ratio_mean": -0.07623190579764495,
+      "shape_edge_density_mean": 0.3285997149928748,
+      "morph_wing_body_ratio_mean": -0.3367209180229506,
+      "morph_tail_body_ratio_mean": 0.346147153678842,
+      "morph_body_width_ratio_mean": 0.11889597239930999,
+      "morph_body_len_ratio_mean": -0.09821345533638343
+    },
+    "av_wing_mass": {
+      "fractal_dimension_mean": -0.10890572264306608,
+      "symm_vertical_mean": 0.17060076501912552,
+      "glcm_entropy_mean": -0.4059101477536939,
+      "glcm_contrast_mean": -0.365811145278632,
+      "shape_area_ratio_mean": -0.1516672916822921,
+      "shape_edge_density_mean": -0.1411490287257182,
+      "morph_wing_body_ratio_mean": 0.08188404710117754,
+      "morph_tail_body_ratio_mean": -0.08003450086252158,
+      "morph_body_width_ratio_mean": -0.27104627615690396,
+      "morph_body_len_ratio_mean": -0.021906547663691597
+    },
+    "av_tail_mass": {
+      "fractal_dimension_mean": -0.0254766369159229,
+      "symm_vertical_mean": -0.32813320333008333,
+      "glcm_entropy_mean": 0.0790204755118878,
+      "glcm_contrast_mean": 0.041402535063376586,
+      "shape_area_ratio_mean": -0.09218030450761269,
+      "shape_edge_density_mean": 0.18916222905572638,
+      "morph_wing_body_ratio_mean": -0.24777619440486015,
+      "morph_tail_body_ratio_mean": 0.20466211655291386,
+      "morph_body_width_ratio_mean": -0.042253056326408175,
+      "morph_body_len_ratio_mean": -0.046558163954098855
+    }
+  },
+  "elapsed_sec": 86.63324642181396
+}

@@ -1,0 +1,61 @@
+=== B 分组 Fisher 均值 ===
+ group     mean      max  count
+GLCM纹理 0.232303 0.305316      7
+ LBP纹理 0.192231 0.508976     59
+  灰度统计 0.171765 0.230204      2
+  形态比例 0.124225 0.182728      6
+    颜色 0.115113 0.314496     34
+    形貌 0.067363 0.148003     12
+ 分形复杂度 0.059122 0.077663      2
+   对称性 0.048503 0.088437      4
+
+=== B 前12特征 ===
+     feature        F  group
+      lbp_12 0.508976  LBP纹理
+      lbp_51 0.452956  LBP纹理
+      lbp_11 0.420757  LBP纹理
+      lbp_07 0.418902  LBP纹理
+      lbp_15 0.417235  LBP纹理
+      lbp_46 0.408940  LBP纹理
+      lbp_50 0.408515  LBP纹理
+      lbp_58 0.353151  LBP纹理
+      lbp_18 0.332703  LBP纹理
+      lbp_13 0.321813  LBP纹理
+   color_s06 0.314496     颜色
+glcm_entropy 0.305316 GLCM纹理
+
+=== C 关键特征 ===
+              feature    F_raw  F_enhanced  group  improve_ratio
+        glcm_contrast 0.357068    0.358700 GLCM纹理       1.004570
+         glcm_entropy 0.323413    0.387504 GLCM纹理       1.198171
+   shape_edge_density 0.361015    0.337882     形貌       0.935921
+    fractal_dimension 0.384557    0.391965  分形复杂度       1.019265
+        symm_vertical 0.300711    0.211171    对称性       0.702238
+morph_tail_body_ratio 0.452068    0.662399   形态比例       1.465263
+
+=== D 相关系数(绝对值前12) ===
+               image_metric         avonet       rho      abs
+         symm_vertical_mean   av_tail_wing -0.480926 0.480926
+          glcm_entropy_mean av_wing_tarsus -0.434393 0.434393
+          glcm_entropy_mean   av_wing_mass -0.405910 0.405910
+         symm_vertical_mean           Mass  0.397326 0.397326
+         glcm_contrast_mean   av_wing_mass -0.365811 0.365811
+ morph_tail_body_ratio_mean   av_tail_wing  0.346147 0.346147
+ morph_wing_body_ratio_mean   av_tail_wing -0.336721 0.336721
+         glcm_contrast_mean av_wing_tarsus -0.332272 0.332272
+    shape_edge_density_mean   av_tail_wing  0.328600 0.328600
+         symm_vertical_mean   av_tail_mass -0.328133 0.328133
+ morph_tail_body_ratio_mean           Mass -0.295639 0.295639
+morph_body_width_ratio_mean           Mass -0.282769 0.282769
+
+=== A 汇总 ===
+  iou 0.9263
+  dice 0.9596
+  area_coarse 0.2239
+  area_refined 0.2116
+  edge_coarse 0.0469
+  edge_refined 0.0472
+  fractal_coarse 1.5912
+  fractal_refined 1.5802
+  t_coarse 0.0083
+  t_refined 0.0793

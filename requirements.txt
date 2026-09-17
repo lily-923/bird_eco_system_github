@@ -1,0 +1,8 @@
+opencv-python>=4.8
+numpy>=1.24
+scipy>=1.10
+scikit-learn>=1.2
+pandas>=1.5
+matplotlib>=3.6
+Pillow>=9.4
+# tkinter 为 Python 标准库，无需安装
